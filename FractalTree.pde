@@ -7,7 +7,6 @@ public void setup() {
 } 
 public void draw() {   
   branchAngle= (double)(((double)(mouseY))/152.0);
-  System.out.println(mouseY);
   background(0);  
   strokeWeight(2);
   stroke(255, 255, 255);   
